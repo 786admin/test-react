@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+#register-title{
+    padding: 20px;
+    color: #343837;
+    font-family: "Open Sans", sans-serif;
+    margin-right: 40px
+}
+
+#register-link{
+    color: #343837;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#register-init{
+    position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#register-init input[type=text] {
+  padding: 7px 5px;
+  margin: 10px 0;
+  width: 96%;
+  display: block;
+  background: #f2f2f2;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s linear;
+}
+
+#register-init input[type=email] {
+  padding: 7px 5px;
+  margin: 10px 0;
+  width: 96%;
+  display: block;
+  background: #f2f2f2;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s linear;
+}
+
+#register-init input[type=password] {
+  padding: 7px 5px;
+  margin: 10px 0;
+  width: 96%;
+  display: block;
+  background: #f2f2f2;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.3s linear;
+  
+}
+
+#register-init  input[type=submit] {
+    font-family: "Consolas";
+  background: #8756e4;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  width: 40%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 110px;
+
+}
+
+body {
+  background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+  font-family: "Roboto", sans-serif;    
+}
